@@ -1,0 +1,55 @@
+-----------------------------------------
+|   Lab 05 By: Frederik Blais, 1763111  |
+-----------------------------------------
+
+Question 1:
+    a.  You can change a data value in a tuple but not in a
+        list. True or False? Explain your answer.
+        - False, its the opposite.
+
+    b.  What is a comprehension list?
+        - List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+        ex: 
+        fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+        newlist = [x for x in fruits if "a" in x]
+        print(newlist)
+
+    c.  How do you specify a step amount in a tuple slice?
+        - the last value in the tuple[] is the step value
+        ex:
+        tuple = 1, 2, 3, 4, 5, 6
+        s_tuple = tuple[0:6:2] # will jump by 3
+
+    d.  What function creates a list from a tuple value?
+        - list()
+
+    e.  What index value retrieves the first value in a list?
+        - [0]
+
+    f.  What function do you use to remove a value from
+        the middle of a list?
+        - pop()
+
+    g.  What function do you use to add a new data value 
+        to the end of a list?
+        - append()
+
+Question 2:
+    a.  A dictionary key can have one or more values
+        associated with it at the same time. True or False? 
+        Explain your answer.
+        - False, Dictionary keys must belong to only one value (no duplicate keys allowed)
+
+    b.  List three properties of a Dictionary key
+        1) The key must be an immutable object (Cannot change)
+        2) The key cannot be a list
+        3) The key can be a tuple
+
+    c.  A set’s elements are mutable and can be changed. 
+        True or False? Explain your answer.
+        - True, howerver you can't change individual elements, you can only perform mass addition
+
+    e.  Which set operation would you perform if you 
+        wanted a set that contains only member that are in 
+        two distinct sets?
+        - .intersection()
